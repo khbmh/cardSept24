@@ -1,7 +1,7 @@
 function cardsStickyAnimation() {
   document.querySelectorAll('.card').forEach(function (el) {
     gsap.to(el, {
-      height: '200px',
+      // height: '200px',
       scale: 0.4,
       opacity: 0,
       scrollTrigger: {
